@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 const NewsSummaryCard = ({ news }) => {
     const { _id, title, author, total_view, image_url, details, rating } = news;
-    console.log(_id);
     return (
         <div>
             <Card className="mb-5">

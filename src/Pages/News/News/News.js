@@ -9,7 +9,6 @@ const News = () => {
     const { title, details, image_url, category_id } = news;
     return (
         <div>
-            <h2>{news.title}</h2>
             <Card>
                 <Card.Img variant="top" src={image_url} />
                 <Card.Body>
