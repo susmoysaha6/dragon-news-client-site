@@ -27,7 +27,7 @@ const NewsSummaryCard = ({ news }) => {
                     <Card.Title>{title}</Card.Title>
                     <Card.Img variant='top' src={image_url}></Card.Img>
                     <Card.Text>
-                        {details.length > 250 ? <p>{details.slice(0, 250) + '...'} <Link to={`/news/${_id}`}>Read More</Link> </p> : <p>{details}</p>}
+                        {details.length > 250 ? <>{details.slice(0, 250) + '...'} <Link to={`/news/${_id}`}>Read More</Link> </> : details}
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className="d-flex justify-content-between">
