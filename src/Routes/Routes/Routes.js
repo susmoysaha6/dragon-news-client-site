@@ -22,12 +22,12 @@ export const router = createBrowserRouter([
             {
                 path: '/category/:id',
                 element: <Category></Category>,
-                loader: ({ params }) => fetch(`https://dragon-news-server-swart.vercel.app/${params.id}`)
+                loader: ({ params }) => fetch(`https://dragon-news-server-swart.vercel.app/category/${params.id}`)
             },
             {
                 path: '/news/:id',
                 element: <PrivateRoutes><News></News></PrivateRoutes>,
-                loader: ({ params }) => fetch(`https://dragon-news-server-swart.vercel.app/${params.id}`)
+                loader: ({ params }) => fetch(`https://dragon-news-server-swart.vercel.app/news/${params.id}`)
             },
             {
                 path: '/login',
