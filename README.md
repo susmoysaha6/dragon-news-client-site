@@ -1,3 +1,17 @@
+# Project Name: Dragon News
+
+## Live site: https://dragon-news-81bc7.web.app/
+
+### Server site link: https://dragon-news-server-swart.vercel.app/
+
+### Technology used
+
+* react
+* react-router
+* react bootstrap
+* context api
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
